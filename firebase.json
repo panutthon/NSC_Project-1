@@ -1,0 +1,44 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "nsc-competition",
+          "appId": "1:628374339120:android:d2311427da758a5afef7f5",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "nsc-competition",
+          "appId": "1:628374339120:ios:aa72ff295b6c9735fef7f5",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "nsc-competition",
+          "appId": "1:628374339120:ios:aa72ff295b6c9735fef7f5",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "nsc-competition",
+          "configurations": {
+            "android": "1:628374339120:android:d2311427da758a5afef7f5",
+            "ios": "1:628374339120:ios:aa72ff295b6c9735fef7f5",
+            "macos": "1:628374339120:ios:aa72ff295b6c9735fef7f5",
+            "web": "1:628374339120:web:a8b362693ab6c596fef7f5",
+            "windows": "1:628374339120:web:0de8c4e389d54813fef7f5"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "singleProjectMode": true
+  }
+}
